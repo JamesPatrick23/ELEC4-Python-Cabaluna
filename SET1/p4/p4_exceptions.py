@@ -1,11 +1,10 @@
 
-# Name: Your Full Name
-# Section: IV-BSIT
+# Name: James Patrick Cabaluna
+# Section: IV-BSIT-C
 # Activity: P4 - Safe Menu Program
 # Date: November 21, 2026
 
 
-# Function 1: Division
 def divide_numbers():
     print("\n===== DIVISION =====")
 
@@ -28,7 +27,6 @@ def divide_numbers():
         print("Division operation finished.")
 
 
-# Function 2: Open and read a file
 def open_file():
     print("\n===== OPEN FILE =====")
 
@@ -48,8 +46,6 @@ def open_file():
     finally:
         print("File operation finished.")
 
-
-# Main menu
 while True:
 
     print("\n===== SAFE MENU PROGRAM =====")
