@@ -1,6 +1,6 @@
 
 # Name: James Patrick Cabaluna
-# Section: IV-BSIT
+# Section: IV-BSIT-C
 # Activity: P3 - Student Record Manager
 # Date: November 21, 2026
 
