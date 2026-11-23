@@ -12,16 +12,18 @@
 
 This repository contains my Python Programming activities for ELEC 4. It demonstrates my understanding of Python functions, modules, lists, sets, and exception handling.
 
+
 ## Set 1 – Python Activities
 
 | Activity | Description | Folder |
 |---|---|---|
-| P1 – Student Grade Calculator | Uses functions to calculate student grades, average, highest, lowest, and pass/fail status. | [P1 Folder](set1/p1/) |
-| P2 – Custom Module | Uses a custom Python module to calculate grades and generate a student report. | [P2 Folder](set1/p2/) |
-| P3 – Student Record Manager | Manages student names using lists and sets. Supports adding, removing, searching, and displaying students. | [P3 Folder](set1/p3/) |
-| P4 – Safe Menu Program | Demonstrates exception handling using try, except, else, and finally. | [P4 Folder](set1/p4/) |
+| P1 – Student Grade Calculator | Uses functions to calculate student grades, average, highest, lowest, and pass/fail status. | [P1 Folder](SET1/p1/) |
+| P2 – Custom Module | Uses a custom Python module to calculate grades and generate a student report. | [P2 Folder](SET1/p2/) |
+| P3 – Student Record Manager | Manages student names using lists and sets. Supports adding, removing, searching, and displaying students. | [P3 Folder](SET1/p3/) |
+| P4 – Safe Menu Program | Demonstrates exception handling using try, except, else, and finally. | [P4 Folder](SET1/p4/) |
 
 ---
+
 
 ## How to Run the Programs
 
