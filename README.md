@@ -1,7 +1,7 @@
 # ELEC 4 – Python Programming
 
 **Student Name:** James Patrick Cabaluna 
-**Section:** IV-BSIT 
+**Section:** IV-BSIT-C
 **Course:** ELEC 4 – Python Programming  
 **Set:** Set 1  
 **Academic Year:** 2026
@@ -77,31 +77,33 @@ python set1/p4/p4_exceptions.py
 
 ---
 
+
 ## Screenshots
 
 Screenshots of the actual program outputs are saved in the screenshots folder of each activity.
 
 ### P1 – Student Grade Calculator
 
-![P1 Output](SET1\p1\screenshots\screenshot_p1.png)
+![P1 Output](SET1/p1/screenshots/screenshot_p1.png)
 
 ### P2 – Custom Module
 
-![P2 Output](SET1\p2\screenshots\screenshot_p2.png)
+![P2 Output](SET1/p2/screenshots/screenshot_p2.png)
 
-![P2 Output](SET1\p2\screenshots\screenshot_p2(1).png)
+![P2 Output](SET1/p2/screenshots/screenshot_p2(1).png)
 
 ### P3 – Student Record Manager
 
-![P3 Output](SET1\p\screenshots\1_add_student.png)
+![P3 Output](SET1/p3/screenshots/1_add_student.png)
 
-![P3 Output](SET1\p3\screenshots\2_3_4_option_manager.png)
+![P3 Output](SET1/p3/screenshots/2_3_4_option_manager.png)
 
 ### P4 – Safe Menu Program
 
-![P4 Output](SET1\p4\screenshots\p4_menu_1.png)
+![P4 Output](SET1/p4/screenshots/p4_menu_1.png)
 
-![P4 Output](SET1\p4\screenshots\p4_menu_2.png)
+![P4 Output](SET1/p4/screenshots/p4_menu_2.png)
+
 
 ---
 
