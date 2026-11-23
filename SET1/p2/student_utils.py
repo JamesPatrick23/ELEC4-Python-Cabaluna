@@ -1,6 +1,6 @@
 
 # Name: James Patrick Cabaluna
-# Section: IV-BSIT
+# Section: IV-BSIT-C
 # Activity: P2 - Custom Module
 # File: student_utils.py
 # Date: November 21, 2026
