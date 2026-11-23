@@ -1,7 +1,7 @@
 # ELEC 4 – Python Programming
 
 **Student Name:** James Patrick Cabaluna 
-**Section:** IV-BSIT [Your Section]  
+**Section:** IV-BSIT 
 **Course:** ELEC 4 – Python Programming  
 **Set:** Set 1  
 **Academic Year:** 2026
