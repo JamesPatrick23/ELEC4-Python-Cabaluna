@@ -4,14 +4,13 @@
 # Activity: P3 - Student Record Manager
 # Date: November 21, 2026
 
-# List stores the original student names
+
 students = []
 
-# Set prevents duplicate names
+
 student_names = set()
 
 
-# Function 1: Add a student
 def add_student():
     name = input("Enter student name: ").strip()
 
@@ -19,7 +18,6 @@ def add_student():
         print("Student name cannot be empty.")
         return
 
-    # Convert name to lowercase for duplicate checking
     normalized_name = name.lower()
 
     if normalized_name in student_names:
@@ -30,7 +28,6 @@ def add_student():
         print(name, "successfully added!")
 
 
-# Function 2: Remove a student
 def remove_student():
     name = input("Enter student name to remove: ").strip()
 
@@ -44,7 +41,6 @@ def remove_student():
     print("Student not found.")
 
 
-# Function 3: Search for a student
 def search_student():
     keyword = input("Enter name to search: ").strip().lower()
 
@@ -63,7 +59,6 @@ def search_student():
         print("No matching student found.")
 
 
-# Function 4: Display all students
 def display_students():
     if not students:
         print("No student records available.")
@@ -79,7 +74,6 @@ def display_students():
     print("Total Students:", len(students))
 
 
-# Main menu
 while True:
     print("\n===== STUDENT RECORD MANAGER =====")
     print("1. Add Student")
