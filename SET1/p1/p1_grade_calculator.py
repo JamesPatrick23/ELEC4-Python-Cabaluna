@@ -1,5 +1,5 @@
 
-# Name: Your Full Name
+# Name: James Patrick Cabaluna
 # Section: IV-BSIT
 # Activity: P1 - Student Grade Calculator
 # Date: November 21, 2026
