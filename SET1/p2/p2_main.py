@@ -1,4 +1,3 @@
-
 # Name: James Patrick Cabaluna
 # Section: IV-BSIT-C
 # Activity: P2 - Custom Module
