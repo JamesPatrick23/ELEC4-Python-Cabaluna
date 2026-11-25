@@ -1,4 +1,3 @@
-
 # Name: James Patrick Cabaluna
 # Section: IV-BSIT-C
 # Activity: P4 - Safe Menu Program
@@ -17,19 +16,15 @@ def divide_numbers():
         result = first_number / second_number
 
     except ValueError:
-        # Handle invalid number input
         print("Error: Please enter valid numbers.")
 
     except ZeroDivisionError:
-        # Handle division by zero
         print("Error: Cannot divide by zero.")
 
     else:
-        # Display the result if no error occurs
         print("Result:", result)
 
     finally:
-        # This message always appears
         print("Division operation finished.")
 
 
@@ -44,16 +39,13 @@ def open_file():
             file_content = opened_file.read()
 
     except FileNotFoundError:
-        # Handle missing files
         print("Error: File does not exist.")
 
     else:
-        # Display file contents if the file opens successfully
         print("\n===== FILE CONTENTS =====")
         print(file_content)
 
     finally:
-        # This message always appears
         print("File operation finished.")
 
 
