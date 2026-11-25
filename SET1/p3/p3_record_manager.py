@@ -1,79 +1,87 @@
-
 # Name: James Patrick Cabaluna
 # Section: IV-BSIT-C
 # Activity: P3 - Student Record Manager
 # Date: November 21, 2026
 
 
-students = []
-
-
+# Global variables to store student records and prevent duplicates
+student_records = []
 student_names = set()
 
 
+# Function to add a new student
 def add_student():
-    name = input("Enter student name: ").strip()
+    student_name = input("Enter student name: ").strip()
 
-    if name == "":
+    # Check if the entered name is empty
+    if student_name == "":
         print("Student name cannot be empty.")
         return
 
-    normalized_name = name.lower()
+    # Convert the name to lowercase for duplicate checking
+    normalized_name = student_name.lower()
 
     if normalized_name in student_names:
         print("Student already exists!")
     else:
-        students.append(name)
+        student_records.append(student_name)
         student_names.add(normalized_name)
-        print(name, "successfully added!")
+        print(student_name, "successfully added!")
 
 
+# Function to remove an existing student
 def remove_student():
-    name = input("Enter student name to remove: ").strip()
+    student_name = input("Enter student name to remove: ").strip()
 
-    for student in students:
-        if student.lower() == name.lower():
-            students.remove(student)
-            student_names.remove(student.lower())
-            print(student, "successfully removed!")
+    # Search for the student without considering uppercase or lowercase
+    for existing_student in student_records:
+        if existing_student.lower() == student_name.lower():
+            student_records.remove(existing_student)
+            student_names.remove(existing_student.lower())
+            print(existing_student, "successfully removed!")
             return
 
     print("Student not found.")
 
 
+# Function to search for a student by name
 def search_student():
-    keyword = input("Enter name to search: ").strip().lower()
+    search_keyword = input("Enter name to search: ").strip().lower()
 
-    if keyword == "":
+    if search_keyword == "":
         print("Please enter a search keyword.")
         return
 
-    found = False
+    student_found = False
 
-    for student in students:
-        if keyword in student.lower():
-            print("Found:", student)
-            found = True
+    # Display students whose names contain the search keyword
+    for student_name in student_records:
+        if search_keyword in student_name.lower():
+            print("Found:", student_name)
+            student_found = True
 
-    if not found:
+    if not student_found:
         print("No matching student found.")
 
 
+# Function to display all student records alphabetically
 def display_students():
-    if not students:
+    if not student_records:
         print("No student records available.")
         return
 
     print("\n===== STUDENT LIST =====")
 
-    sorted_students = sorted(students, key=str.lower)
+    # Sort student names alphabetically
+    sorted_students = sorted(student_records, key=str.lower)
 
-    for number, student in enumerate(sorted_students, start=1):
-        print(f"{number}. {student}")
+    for student_number, student_name in enumerate(sorted_students, start=1):
+        print(f"{student_number}. {student_name}")
 
-    print("Total Students:", len(students))
+    print("Total Students:", len(student_records))
 
 
+# Main menu of the Student Record Manager
 while True:
     print("\n===== STUDENT RECORD MANAGER =====")
     print("1. Add Student")
@@ -82,21 +90,21 @@ while True:
     print("4. Display All Students")
     print("5. Exit")
 
-    choice = input("Choose an option: ")
+    menu_choice = input("Choose an option: ")
 
-    if choice == "1":
+    if menu_choice == "1":
         add_student()
 
-    elif choice == "2":
+    elif menu_choice == "2":
         remove_student()
 
-    elif choice == "3":
+    elif menu_choice == "3":
         search_student()
 
-    elif choice == "4":
+    elif menu_choice == "4":
         display_students()
 
-    elif choice == "5":
+    elif menu_choice == "5":
         print("Thank you for using Student Record Manager!")
         break
 
